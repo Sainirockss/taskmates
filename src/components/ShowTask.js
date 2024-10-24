@@ -3,7 +3,7 @@ import React from 'react'
 function ShowTask(props) {
     const taskList = props.taskList;
     const SetTasklist = props.SetTasklist;
-    const Task = props.Task;
+    // const Task = props.Task;
     const SetTask = props.SetTask;
 
     
