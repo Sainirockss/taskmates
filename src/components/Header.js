@@ -8,12 +8,12 @@ function Header() {
         localStorage.setItem("theme", Theme);
     
         // Apply the theme class to the document
-        document.documentElement.classList.remove("light", "dark");
+        document.documentElement.removeAttribute("class");
         document.documentElement.classList.add(Theme);              
     
     }, [Theme]);
 
-    
+
     return (
         <header>
         <div className='logo'>
